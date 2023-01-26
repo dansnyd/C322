@@ -43,9 +43,9 @@ public class GuessGame {
             bool3 = false;
             System.out.println("Player three got it right?" + bool3);
         }
-        boolean finished = true;
-        while(finished) {
-            if(bool1 && bool2 && bool3) {
+
+        while(!(bool1 && bool2 && bool3)) {
+            if(!(bool1 && bool2 && bool3)) {
                 System.out.println("I'm guessing " + guess1);
                 System.out.println("I'm guessing " + guess2);
                 System.out.println("I'm guessing " + guess3);
@@ -61,7 +61,6 @@ public class GuessGame {
                 System.out.println("Player two guessed " + guess2);
                 System.out.println("Player three guessed " + guess3);
                 System.out.println("We have a winner");
-                finished = false;
             }
         }
     }
