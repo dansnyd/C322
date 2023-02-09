@@ -9,7 +9,7 @@ public class Macro implements Command{
     }
 
     public void execute(){
-        for(Device device:Light.on || the command ->)
+        for(Device device:Light.on || the command ->);
     }
     //was still working on my macro command
 }
