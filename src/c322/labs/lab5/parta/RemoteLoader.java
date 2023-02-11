@@ -8,6 +8,6 @@ public class RemoteLoader {
 
         Light livingRoomLight = new Light("Living Room");
 
-        remoteControl.setCommand(0, livingRoomLight::on, livingRoomLight::off);
+      //  remoteControl.setCommand(0, livingRoomLight::on, livingRoomLight::off);
     }
 }

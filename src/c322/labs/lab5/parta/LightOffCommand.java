@@ -7,7 +7,7 @@ public class LightOffCommand implements Command{
         this.light = light;
     }
 
-    public static void execute() {
+    public void execute() {
         light.off();
     }
 

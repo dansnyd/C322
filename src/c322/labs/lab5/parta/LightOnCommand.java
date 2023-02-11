@@ -1,13 +1,13 @@
 package c322.labs.lab5.parta;
 
 public class LightOnCommand implements Command{
-    Light light;
+    private Light light;
 
     public LightOnCommand(Light light) {
         this.light = light;
     }
 
-    public static void execute() {
+    public void execute() {
         light.on();
     }
 
