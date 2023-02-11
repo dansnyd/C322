@@ -2,24 +2,23 @@ package c322.homework.homework4.partd;
 
 public class TypeAFactory implements MotorHomeAbstractFactory {
 
-    public MotorHomeAbstractFactory
     @Override
-    public void setFrame() {
-        this.frame = new TypeAFrame();
+    public Style createStyle() {
+        return new TypeAStyle();
     }
 
     @Override
-    public void setEngine() {
-        this.engine = new TypeAEngine();
+    public Frame createFrame() {
+        return new TypeAFrame();
     }
 
     @Override
-    public void setKitchen() {
-        this.kitchen = new TypeAKitchen();
+    public Engine createEngine() {
+       return new TypeAEngine();
     }
 
     @Override
-    public void setStyle() {
-        this.style = new TypeAStyle();
+    public Kitchen createKitchen() {
+        return new TypeAKitchen();
     }
 }

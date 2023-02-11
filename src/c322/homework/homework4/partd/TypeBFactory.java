@@ -2,22 +2,22 @@ package c322.homework.homework4.partd;
 
 public class TypeBFactory implements MotorHomeAbstractFactory {
     @Override
-    public Style getStyle() {
+    public Style createStyle() {
         return new TypeBStyle();
     }
 
     @Override
-    public Frame getFrame() {
+    public Frame createFrame() {
         return new TypeBFrame();
     }
 
     @Override
-    public Engine getEngine() {
+    public Engine createEngine() {
         return new TypeBEngine();
     }
 
     @Override
-    public Kitchen getKitchen() {
+    public Kitchen createKitchen() {
         return new TypeBKitchen();
     }
 }
