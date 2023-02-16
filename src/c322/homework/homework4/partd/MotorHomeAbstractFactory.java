@@ -1,6 +1,6 @@
 package c322.homework.homework4.partd;
 
-public abstract class MotorHomeAbstractFactory {
+public interface MotorHomeAbstractFactory {
 
     abstract Style createStyle();
 
