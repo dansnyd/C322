@@ -1,0 +1,15 @@
+package c322.homework.homework5.parta;
+
+public class AccountDriver {
+
+    public static void main(String[] args) {
+        System.out.println("\n\nBank Account Number Generation System");
+
+        //create new account
+        CreateBankAccount account1 = CreateBankAccount.getNewAccount();
+
+        //create new account
+        CreateBankAccount account2 = CreateBankAccount.getNewAccount();
+
+    }
+}
